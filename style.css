@@ -43,6 +43,14 @@ body {
     animation: slideIn 7s linear infinite;
     display: inline-block; 
 }
+.navi {
+    font-family: Roboto Mono; 
+    font-size: 20px; 
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
+
 
 @keyframes slideIn {
     0% {
