@@ -2,9 +2,8 @@ body {
     background-color: pink;
     margin: 0;
     display: flex;
-    height: 100vh; 
-    align-items: center; 
-    justify-content: center; 
+    flex-direction: column;
+    min-height: 100vh; 
 }
 
 .logo {
@@ -12,13 +11,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-grow: 1; 
+    margin-top: 100px; 
+    text-align: center; 
 }
 
 .signature {
     font-family: Shizuru;
     font-size: 60px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 10px;
 }
 
@@ -43,14 +45,22 @@ body {
     animation: slideIn 7s linear infinite;
     display: inline-block; 
 }
-.navi {
-    font-family: Roboto Mono; 
-    font-size: 20px; 
-    color: black;
-    text-decoration: none;
-    margin: 0;
+
+.arrow {
+    font-size: 30px; 
 }
 
+.navi {
+    font-family: Roboto Mono; 
+    font-size: 16px; 
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navi:hover {
+    text-decoration: underline;
+}
 
 @keyframes slideIn {
     0% {
@@ -59,4 +69,41 @@ body {
     100% {
         transform: translateX(-100%);
     }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(40px); 
+    }
+}
+
+.container-navi {
+    display: none;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-40%);
+    z-index: 1000;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.container-navi.show {
+    animation: none; 
+    opacity: 1;
+    transform: translateY(50px); 
+}
+
+footer {
+    text-align: center;
+    margin-top: auto; 
+}
+
+.rights {
+    font-family: Roboto Mono; 
+    font-size: 12px;
+    color: black;
 }
