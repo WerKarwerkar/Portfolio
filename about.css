@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto Mono';
+} 
+header {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.left, .right  {
+    background-color: pink;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.left a, .right a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Mono';
+}
+
+.left:hover, .right:hover {
+    background-color: black;
+    color: pink;
+}
+.left:hover a, .right:hover a {
+    color: pink;
+}
+
+.me {
+    background-color: pink;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto;
+    width: 50%;
+    border: 1px solid black; 
+
+}

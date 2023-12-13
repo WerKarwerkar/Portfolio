@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto Mono';
+} 
+
+header {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.left, .right1  {
+    background-color: pink;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.left a, .right1 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Mono';
+}
+
+.left:hover, .right1:hover {
+    background-color: black;
+    color: pink;
+}
+
+.left:hover a, .right1:hover a {
+    color: pink;
+}
+
+.container-carousel {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.carousel {
+    border: 1px solid black;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.slider {
+    height: 100%;
+    display: flex;
+    width: 200%; 
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider section {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls .arrow2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.controls .arrow2 i {
+    font-size: 30px;
+}
+
+.arrow2.toleft {
+    left: 10px;
+}
+
+.arrow2.toright {
+    right: 10px;
+}
+.latest-posts img {
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+}
