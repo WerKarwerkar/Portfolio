@@ -48,23 +48,16 @@ header {
     height: 400px;
     overflow: hidden;
     position: relative;
-    margin-top: 100px;
-    margin-bottom: 40px;
 }
 
 .slider {
     height: 100%;
     display: flex;
-    width: 200%; 
-    transition: transform 0.5s ease-in-out;
+    width: 400%; 
+    overflow: hidden;
+    transition: all 0.3s;
 }
 
-.slider section {
-    flex-basis: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .controls .arrow2 {
     position: absolute;
