@@ -39,7 +39,7 @@ header {
 }
 
 .container-carousel {
-    width: 60%;
+    width: 50%;
     margin: 10px auto;
 }
 
@@ -55,7 +55,13 @@ header {
     display: flex;
     width: 400%; 
     overflow: hidden;
-    transition: all 0.3s;
+}
+
+.slider section {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -77,14 +83,16 @@ header {
 .arrow2.toright {
     right: 10px;
 }
-.latest-posts img {
-    width: 100px;
-    height: 50px;
-    object-fit: cover;
-}
+
 .pictures img {
-    width: 560px;
+    max-width: 560px;
     height: 350px;
     object-fit: cover;
     
+}
+.pictures {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
