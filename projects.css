@@ -82,3 +82,9 @@ header {
     height: 50px;
     object-fit: cover;
 }
+.pictures img {
+    width: 560px;
+    height: 350px;
+    object-fit: cover;
+    
+}
