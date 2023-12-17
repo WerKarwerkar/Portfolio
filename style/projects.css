@@ -89,11 +89,6 @@ header {
         display: none;  
     }
 
-    .pictures {
-        display: flex;
-        flex-direction: column;  
-    }
-
     .slide {
         margin-bottom: 20px;
     }
@@ -102,4 +97,17 @@ header {
         display: none;  
     }
 
+    .pictures {
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .slide a {
+        display: block;  
+    }
+
+    .slide img {
+        max-width: 100%; 
+        height: auto;
+    }
 }
