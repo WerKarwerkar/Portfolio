@@ -85,5 +85,15 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-   
+    .container-carousel {
+        width: 80%;  
+    }
+
+    .carousel {
+        height: auto;  
+    }
+    .slide {
+        flex: 0 0 100%; 
+        margin-bottom: 20px; 
+    }
 }
