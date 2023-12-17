@@ -48,13 +48,13 @@ header {
     .me {
         background-color: pink;
         color: black;
-        padding: 5px 5px;
+        padding: 10px 10px;
         border-radius: 15px;
         margin: auto;
         margin-bottom: 10px;
-        width: 70%;
+        width: 90%;
         border: 1px solid black; 
         font-family: 'Roboto Mono';
-        font-size: 12px;
+        font-size: 8px;
     }
 }
