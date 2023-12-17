@@ -100,11 +100,7 @@ header {
         transition: none;
     }
 
-    .slide {
-        flex: 0 0 33.33%;
-        display: block;
-        margin-bottom: 15px;
-    }
+   
 
     .pictures img {
         width: 100%;
