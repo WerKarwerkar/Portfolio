@@ -108,3 +108,10 @@ footer {
     color: black;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .logo {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
