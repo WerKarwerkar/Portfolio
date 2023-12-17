@@ -96,10 +96,17 @@ header {
 
     .slider {
         flex-direction: column;
+        height: auto; 
     }
 
     .slide {
-        flex: 0 0 100%;
+        flex: 0 0 auto;
+    }
+
+    .pictures img {
+        width: 100%; 
+        height: auto;
+        object-fit: cover;
     }
 
     .controls .arrow2 {
