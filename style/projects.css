@@ -90,8 +90,14 @@ header {
     }
 
     .carousel {
-        height: auto;  
+        height: auto;
     }
+
+    .slider .pictures {
+        flex-basis: 100%;
+        display: block; 
+    }
+
     .slide {
         flex: 0 0 100%; 
     }
