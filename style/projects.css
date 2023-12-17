@@ -86,7 +86,7 @@ header {
 
 @media screen and (max-width: 768px) {
     .container-carousel {
-        width: 90%;  
+        width: 90%;
     }
 
     .carousel {
@@ -94,16 +94,15 @@ header {
         border: none;
     }
 
-    .slider .pictures {
-        flex-basis: 100%;
-        display: block; 
-        margin-bottom: 15px;
+    .slider {
+        flex-direction: column;
     }
 
     .slide {
-        flex: 0 0 100%; 
+        flex: 0 0 100%;
     }
+
     .controls .arrow2 {
-       display: 0;
+        display: none;
     }
 }
