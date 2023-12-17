@@ -1,7 +1,7 @@
 header {
     overflow: hidden;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 30px;
 }
 .left, .right, .center, .git, .live {

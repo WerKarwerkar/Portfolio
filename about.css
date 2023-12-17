@@ -2,7 +2,7 @@
 header {
     overflow: hidden;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 50px;
 }
 .left, .right  {
