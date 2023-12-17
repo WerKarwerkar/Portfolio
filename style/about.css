@@ -42,7 +42,9 @@ header {
     width: 50%;
     border: 1px solid black; 
     font-family: 'Roboto Mono';
+    font-weight: 500;
     font-size: 14px;
+    text-align: center;
 }
 @media screen and (max-width: 768px) {
     .me {
@@ -55,6 +57,7 @@ header {
         width: 80%;
         border: 1px solid black; 
         font-family: 'Roboto Mono';
+        font-weight: 500;
         font-size: 10px;
     }
 }
