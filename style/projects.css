@@ -91,14 +91,19 @@ header {
 
     .carousel {
         height: auto;
+        border: none;
     }
 
     .slider .pictures {
         flex-basis: 100%;
         display: block; 
+        margin-bottom: 15px;
     }
 
     .slide {
         flex: 0 0 100%; 
+    }
+    .controls .arrow2 {
+       display: 0;
     }
 }
