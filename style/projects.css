@@ -83,3 +83,23 @@ header {
 .arrow2.toright {
     right: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .carousel {
+        display: none;  
+    }
+
+    .pictures {
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .slide {
+        margin-bottom: 20px;
+    }
+
+    .controls {
+        display: none;  
+    }
+
+}
