@@ -44,3 +44,17 @@ header {
     font-family: 'Roboto Mono';
     font-size: 14px;
 }
+@media screen and (max-width: 768px) {
+    .me {
+        background-color: pink;
+        color: black;
+        padding: 5px 5px;
+        border-radius: 15px;
+        margin: auto;
+        margin-bottom: 10px;
+        width: 70%;
+        border: 1px solid black; 
+        font-family: 'Roboto Mono';
+        font-size: 12px;
+    }
+}
