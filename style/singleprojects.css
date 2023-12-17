@@ -68,7 +68,6 @@ header {
     max-width: 60%; 
     padding: 20px;
     border-radius: 15px;
-    margin-right: 20px; 
 }
 
 
@@ -80,9 +79,21 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-   
+    .project-title {
+        font-family: 'Roboto Mono';
+        margin-bottom: 10px; 
+        font-size: 14px;
+    }
+    .project-description {
+        padding: 15px;
 
-
+    }
+    .project-info {
+        text-align: left;
+        max-width: 80%; 
+        padding: 20px;
+        border-radius: 15px;
+    }
     
 }
    
