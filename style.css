@@ -110,8 +110,12 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+   
     .signature {
-        margin-left: 10px;
-        margin-right: 10px;
+    font-family: Shizuru;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
     }
 }
