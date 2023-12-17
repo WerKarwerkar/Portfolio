@@ -1,0 +1,82 @@
+header {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.left, .right, .center, .git, .live {
+    background-color: pink;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.left a, .right a, .center a, .git a, .live a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Mono';
+}
+
+.left:hover, .right:hover, .center:hover, .live:hover, .git:hover {
+    background-color: black;
+    color: pink;
+}
+.left:hover a, .right:hover a, .center:hover a, .git:hover a, .live:hover a {
+    color: pink;
+}
+.project-card img {
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+    height: auto;
+}
+.project-description {
+    font-family: 'Roboto Mono';
+    background-color: pink;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto;
+    width: 90%; 
+    border: 1px solid black;
+    text-align: center;  
+}
+
+
+.project-title {
+    font-family: 'Roboto Mono';
+    margin-bottom: 20px; 
+}
+.project-card img {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 20px;
+}
+.project-card {
+    display: flex;
+    justify-content: center;
+}
+
+.project-info {
+    text-align: left;
+    max-width: 60%; 
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 20px; 
+}
+
+
+.project-links {
+    margin-top: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+

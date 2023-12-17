@@ -1,10 +1,8 @@
-body {
-    font-family: 'Roboto Mono';
-} 
+
 header {
     overflow: hidden;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 50px;
 }
 .left, .right  {
@@ -38,10 +36,12 @@ header {
 .me {
     background-color: pink;
     color: black;
-    padding: 20px;
+    padding: 20px 20px;
     border-radius: 15px;
     margin: auto;
+    margin-bottom: 20px;
     width: 50%;
     border: 1px solid black; 
-
+    font-family: 'Roboto Mono';
+    font-size: 14px;
 }
