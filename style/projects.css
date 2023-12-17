@@ -92,18 +92,6 @@ header {
     .carousel {
         height: auto;  
     }
-
-    .slider {
-        display: flex;
-        flex-direction: column;  
-        height: auto;  
-        transform: none; 
-    }
-
-    .controls {
-        display: none; 
-    }
-
     .slide {
         flex: 0 0 100%; 
         margin-bottom: 20px; 
