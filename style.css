@@ -110,7 +110,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .logo {
+    .signature {
         margin-left: 10px;
         margin-right: 10px;
     }
